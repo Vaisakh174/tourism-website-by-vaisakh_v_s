@@ -9,12 +9,15 @@
     padding-right: 4.5rem;
     padding-left: 0;
 }
-.nav-linkw{
-    border: 2px solid rgb(47, 255, 0)(255, 0, 0);
-}
+
 .nav-link{
     padding: 4px;
 }
 body {
     background-size: cover;
+}
+.cardd{
+    /* display: flex; */
+    /* float: left; */
+
 }
