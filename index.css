@@ -1,23 +1,40 @@
-.nav-item a {
-     /* float: right; */
-    border-right: 2px solid rgb(123, 123, 123);
-    margin: 2em;
-    padding-right: 2em; 
-     /* width: 80%; */
+body {
+    background-size: cover;
+    border: 1px solid rgb(200, 200, 200);
 }
+
+.nav-item a {
+    border-right: 2px solid rgb(200, 200, 200);
+    margin: 2em;
+    padding-right: 2em;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 4.5rem;
     padding-left: 0;
 }
 
-.nav-link{
+.nav-link {
     padding: 4px;
 }
-body {
-    background-size: cover;
-}
-.cardd{
-    /* display: flex; */
-    /* float: left; */
 
+hr {
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.carousel {
+    margin-top: 40px;
+}
+
+.row {
+    border: 1px solid rgb(200, 200, 200);
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    border-top: 1px solid rgb(200, 200, 200);
 }
