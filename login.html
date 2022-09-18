@@ -40,7 +40,10 @@
               <a class="nav-link " href="index.html">Contact</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link " style="border-right-color: 	#3c6e8b" href="signup.html">Sign up<span class="sr-only">(current)</span></a>
+              <a class="nav-link " href="login.html">Login<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " style="border-right-color: 	#3c6e8b" href="signup.html">Sign up</a>
             </li>
           </ul>
 
@@ -57,20 +60,24 @@
         <h2 class="mb-4 ">Welcome Back...!</h2>
         <p>Please enter your login credentials to continue.</p>
         <form id="contact-form" action="login-sucess.html" onsubmit="return lvalidate()">
-            <div class="form-group mb-4">
-                <input type="email" id="email" class="form-control" placeholder="Email"/>
-            </div>
-            <div class="form-group mb-4">
-                <input type="password" id="password" class="form-control" placeholder="Password"/>
-            </div>
-            
-            <div class="text-left">
-                <button type="submit" class="btn btn-big btn-primary">Login</button>
-            </div>
-            <br>
-            <div class="text-left">
-                <a href="#" class="btn btn-big btn-primary">Forgot Password?</a>
-            </div>
+          <div class="form-group mb-4">
+            <input type="email" id="email" class="form-control" placeholder="Email" />
+          </div>
+          <div class="form-group mb-4">
+            <input type="password" id="password" class="form-control" placeholder="Password" />
+          </div>
+
+          <div class="text-left">
+            <button type="submit" class="btn btn-big btn-primary">Login</button>
+          </div>
+          <br>
+          <div class="text-left">
+            <a href="signup.html"><button type="button" class="btn btn-big btn-primary">Sign up</button></a>
+          </div>
+          <br>
+          <div class="text-left">
+            <a href="#"><button type="button" class="btn btn-big btn-primary">Forgot Password?</button></a>
+          </div>
         </form>
       </div>
     </div> <!--  sign up end        -->
@@ -82,9 +89,9 @@
       </div>
     </footer><!-- footer end -->
 
-      <!-- top buttom start -->
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-      <!-- top buttom end -->
+    <!-- top buttom start -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- top buttom end -->
 
   </div>
   <!--container ends here -->
