@@ -14,46 +14,46 @@
   <link rel="stylesheet" href="index.css">
 </head>
 
-<!-- body -->
+<!-- body start -->
 
 <body>
   <div class="container">
-  <!-- header -->
-  <header>
+    <!-- header start -->
+    <header>
+      
+      <!-- nav start-->
+      <nav class="navbar navbar-expand-lg navbar-dark mt-4 mb-4 ">
+        <a class="navbar-brand" href="#">
+          <img src="img/kerala-tourism-title.png" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto  mt-lg-2  ">
+            <li class="nav-item active ">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#explore">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " style="border-right-color: 	#3c6e8b" href="signup.html">Sign up</a>
+            </li>
+          </ul>
 
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark mt-4 mb-4 ">
-      <a class="navbar-brand" href="#">
-        <img src="img/kerala-tourism-title.png" alt="" loading="lazy">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto  mt-lg-2  ">
-          <li class="nav-item active ">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#explore">Explore</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " style="border-right-color: 	#2c7097" href="#signin">Sign In</a>
-          </li>
-        </ul>
-
-      </div>
-    </nav>
-  </header>
+        </div>
+      </nav>
+    </header>
 
 
 
-  
-    <!-- carousel -->
+
+    <!-- carousel start-->
     <div class="  row border mt-4  ">
 
       <div class="col-lg-12     ">
@@ -165,14 +165,16 @@
 
       </div>
     </div>
-    <!-- cards inside carousel   -->
+
+
+    <!-- cards inside carousel start  -->
 
     <div class="row border ">
-      <div class="col-7 text-white text-right mt-4">
-        <h3 id="explore">Explore </h3>
+      <div class="col-8 text-white text-right mt-4">
+        <h3 id="explore">Explore Districts</h3>
       </div>
 
-      <div class="col-5 text-right mt-4 ">
+      <div class="col-4 text-right mt-4 ">
         <a class="btn btn-primary  p-0 mr-2" href="#carouselExampleIndicators2" role="button" data-slide="prev">
           <i class="fa carousel-control-prev-icon"></i>
         </a>
@@ -185,17 +187,17 @@
 
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row">
+              <div class="row wid">
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-2 mb-3 card-group">
                   <div class="card">
                     <a href=""><img class="img-fluid" alt="100%x280" src="img/alappuzha.jpg"></a>
                     <div class="card-body">
-                      <a href="" >
+                      <a href="">
                         <h4 class="card-title">Alappuzha</h4>
                       </a>
                       <a href="">
-                        <p class="card-text">more
+                        <p class="card-text">click here
                         </p>
                       </a>
 
@@ -203,7 +205,7 @@
                   </div>
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-2 mb-3 card-group">
                   <div class="card">
                     <a href=""><img class="img-fluid" alt="100%x280" src="img/Ernakulam.jpg"></a>
                     <div class="card-body">
@@ -211,7 +213,7 @@
                         <h4 class="card-title">Ernakulam</h4>
                       </a>
                       <a href="">
-                        <p class="card-text">more
+                        <p class="card-text">click here
                         </p>
                       </a>
 
@@ -219,15 +221,15 @@
                   </div>
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-2 mb-3 card-group">
                   <div class="card">
                     <a href=""><img class="img-fluid" alt="100%x280" src="img/idukki.jpg"></a>
                     <div class="card-body">
                       <a href="">
-                        <h4 class="card-title">	Idukki</h4>
+                        <h4 class="card-title"> Idukki</h4>
                       </a>
                       <a href="">
-                        <p class="card-text">more
+                        <p class="card-text">click here
                         </p>
                       </a>
 
@@ -235,50 +237,15 @@
                   </div>
                 </div>
 
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-
-                <div class="col-md-4 mb-3">
+                <div class="col-md-2 mb-3 card-group">
                   <div class="card">
-                    <a href=""><img class="img-fluid" alt="100%x280" src="img/Kannur.jpg"></a>
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/wayanad.jpg"></a>
                     <div class="card-body">
                       <a href="">
-                        <h4 class="card-title">Kannur</h4>
+                        <h4 class="card-title"> Wayanad</h4>
                       </a>
                       <a href="">
-                        <p class="card-text">more
-                        </p>
-                      </a>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                    <a href=""><img class="img-fluid" alt="100%x280" src="img/kasargod.jpg"></a>
-                    <div class="card-body">
-                      <a href="">
-                        <h4 class="card-title">Kasaragod</h4>
-                      </a>
-                      <a href="">
-                        <p class="card-text">more
-                        </p>
-                      </a>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                    <a href=""><img class="img-fluid" alt="100%x280" src="img/Kollam.jpg"></a>
-                    <div class="card-body">
-                      <a href="">
-                        <h4 class="card-title">Kollam</h4>
-                      </a>
-                      <a href="">
-                        <p class="card-text">more
+                        <p class="card-text">click here
                         </p>
                       </a>
 
@@ -286,27 +253,7 @@
                   </div>
                 </div>
 
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                    <a href=""><img class="img-fluid" alt="100%x280" src="img/kozhikode.jpg"></a>
-                    <div class="card-body">
-                      <a href="">
-                        <h4 class="card-title">Kozhikode</h4>
-                      </a>
-                      <a href="">
-                        <p class="card-text">more
-                        </p>
-                      </a>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-2 mb-3 card-group">
                   <div class="card">
                     <a href=""><img class="img-fluid" alt="100%x280" src="img/malappuram.jpg"></a>
                     <div class="card-body">
@@ -314,14 +261,114 @@
                         <h4 class="card-title">Malappuram</h4>
                       </a>
                       <a href="">
-                        <p class="card-text">more
+                        <p class="card-text">click here
                         </p>
                       </a>
 
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
+
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/thrissur.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title"> Thrissur</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/Kannur.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Kannur</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/kasargod.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Kasaragod</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/Kollam.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Kollam</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/trivandrum.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Thiruvananthapuram</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/idukki.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title"> Idukki</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2 mb-3 card-group">
                   <div class="card">
                     <a href=""><img class="img-fluid" alt="100%x280" src="img/Palakkad.jpg"></a>
                     <div class="card-body">
@@ -329,39 +376,177 @@
                         <h4 class="card-title">Palakkad</h4>
                       </a>
                       <a href="">
-                        <p class="card-text">more
+                        <p class="card-text">click here
                         </p>
                       </a>
 
                     </div>
                   </div>
                 </div>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/kozhikode.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Kozhikode</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/malappuram.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Malappuram</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/Palakkad.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Palakkad</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/pathanamthitta.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Pathanamthitta</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/thrissur.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title"> Thrissur</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2 mb-3 card-group">
+                  <div class="card">
+                    <a href=""><img class="img-fluid" alt="100%x280" src="img/trivandrum.jpg"></a>
+                    <div class="card-body">
+                      <a href="">
+                        <h4 class="card-title">Thiruvananthapuram</h4>
+                      </a>
+                      <a href="">
+                        <p class="card-text">click here
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- carousel end -->
 
-    
-  </div>
-  <footer id="sticky-footer" class="flex-shrink-0  bg-dark text-white mt-4">
-    <div class="container text-center text-white">
-      <small>Copyright @Vaisakh VS</small>
-    </div>
+    <!-- links start -->
+    <div class="row border mt-4 pb-4 text-center">
+      <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 col-xl-12">
+        <h3 id="contact" class=" text-white text-center p-4">Conact Us</h3>
+      </div>
+
+
+      <div class="col-3 link-col">
+        <a href="https://twitter.com/?lang=en-in">Twitter
+        <img src="/img/twier.jpg" class="img-fluid" alt=""></a>
+      </div>
+
+      <div class="col-3 link-col">
+        <a href="https://www.instagram.com/">Instagram
+        <img src="/img/insta.jpg" class="img-fluid" alt=""></a>
+      </div>
+
+      <div class="col-3 link-col">
+        <a href="https://www.google.co.in/">Google
+        <img src="/img/gle.jpg" class="img-fluid" alt=""></a>
+      </div>
+
+      <div class="col-3 link-col">
+        <a href="https://www.facebook.com/">Facebook
+        <img src="/img/facebook-logo-3.png" class="img-fluid" alt=""></a>
+      </div>
+    </div> <!-- link ends -->
+
+
+    <!-- footer start -->
+    <footer class="row flex-shrink-0 border text-white mt-4 mb-4">
+      <div class="col-12 text-center ">
+        <small>Copyright @Vaisakh VS</small>
+      </div>
+    </footer><!-- footer end -->
+
+    <!-- top buttom start -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- top buttom end -->
 
+  </div>
+  <!--container ends here -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-      crossorigin="anonymous"></script>
-      <script src="index.js"></script>
+  <!-- js start here -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <!-- js ends -->
+
 </body>
 
 </html>
