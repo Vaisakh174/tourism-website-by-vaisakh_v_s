@@ -59,12 +59,13 @@ iframe {
 
 .card img {
     width: -webkit-fill-available;
-    
+
 }
+
 .imge img {
     width: -webkit-fill-available;
     /* display: flex; */
-    
+
 }
 
 .card-body h4 {
@@ -131,9 +132,9 @@ iframe {
     text-decoration: none;
 }
 
-hr{
-    border: 1px solid white;
-    width: 100%;
-    
-   
+hr {
+    border: .5px solid rgb(192, 186, 186);
+    width: 90%;
+
+
 }
