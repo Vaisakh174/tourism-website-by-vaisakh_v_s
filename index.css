@@ -52,9 +52,11 @@ nav {
 
 }
 
-iframe {
+.iframee {
     max-width: 100%;
     height: -webkit-fill-available;
+    
+    
 }
 
 .card img {
